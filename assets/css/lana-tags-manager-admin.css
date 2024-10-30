@@ -1,0 +1,54 @@
+table.lana-custom-meta-tags-table td ul.actions {
+    margin: 0;
+}
+
+table.lana-custom-meta-tags-table td ul.actions li {
+    display: inline;
+    margin: 0 7px;
+}
+
+table.lana-custom-meta-tags-table td ul.actions .move-item {
+    cursor: move;
+}
+
+table.lana-custom-meta-tags-table td ul.actions a {
+    text-decoration: none;
+}
+
+table.lana-custom-meta-tags-table tr:hover td ul.actions {
+    display: inline-block;
+}
+
+table.lana-custom-meta-tags-table tr.ui-sortable-helper td ul.actions {
+    display: none !important;
+}
+
+table.lana-custom-meta-tags-table button.lana-add-meta-tag .dashicons-plus {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #72a0c9;
+    vertical-align: baseline;
+    height: 22px;
+    font-size: 16px;
+}
+
+table.lana-custom-meta-tags-table button.lana-add-meta-tag .dashicons-plus::before {
+    vertical-align: middle;
+}
+
+table.lana-custom-meta-tags-table > tbody > tr.ui-state-highlight {
+    border: 1px dashed #c3c3c3 !important;
+    background: #f5f5f5;
+}
+
+form#edittag .lana-tags-manager-custom-meta-tags-wrap > td {
+    padding: 0 !important;
+}
+
+form#edittag .lana-tags-manager-custom-meta-tags-wrap > td > table.lana-custom-meta-tags-table {
+    margin-top: 0 !important;
+}
+
+form#edittag .lana-tags-manager-custom-meta-tags-wrap > td > table.lana-custom-meta-tags-table .regular-text {
+    width: 25em !important;
+}
